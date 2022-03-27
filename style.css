@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Ubuntu&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.main{
+    display: flex;
+    background: url("img/wallpaper.jpg") no-repeat center;
+    background-size: 2000px 1200px;
+    height: 100vh;
+    color: yellow;
+    min-height: 500px;
+    font-family: 'Dela Gothic One',cursive;
+}
+
+.main .title{
+    font-size: 85px;
+    text-align: center;
+}
