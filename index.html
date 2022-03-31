@@ -10,16 +10,7 @@
 
 <body>
 
-    <nav id="nav">
-        <div class="tab" id="tab">
-            <button class="tablinks" onclick="open(event, 'People')">People</button>
-            <button class="tablinks" onclick="open(event, 'Planets')">Planets</button>
-            <button class="tablinks" onclick="open(event, 'Films')">Films</button>
-            <button class="tablinks" onclick="open(event, 'Species')">Species</button>
-            <button class="tablinks" onclick="open(event, 'Vehicles')">Vehicles</button>
-            <button class="tablinks" onclick="open(event, 'Starships')">Starships</button>
-        </div>
-    </nav>
+    
 
     <section class="scroll" id="scroll">
         <div class="wrapper" id="warpper">
@@ -35,16 +26,50 @@
         </div>
     </section>
 
-    <section class="people" id="people">
+    
+    <div class="tab-nav-container" id="tab-nav-container">
+        <div class="people">
+            <p>People</p>
+        </div>
+
+        <div class="species">
+            <p>Species</p>
+        </div>
+
+        <div class="planets">
+            <p>Planet</p>
+        </div>
+
+        <div class="vehicles">
+            <p>Vehicles</p>
+        </div>
+
+        <div class="starships">
+            <p>Starships</p>
+        </div>
+    </div>
+    
+
+    <section class="content" id="content">
         <div class="max-width">
-            <div class="people-info-container">
+            <div id="people" class="people-info-container">
                 <h1 id="name"></h1>
                 <h1 id="DOB"></h1>
                 <h1 id="height"></h1>
                 <h1 id="weight"></h1>
                 <h1 id="gender"></h1>
             </div>
-            <button type="button" id="button" name="button">Find Someone</button>
+
+            <div id="planet" class="planet-info-container">
+                <h1 id="planet-name"></h1>
+                <h1 id="climate"></h1>
+                <h1 id="terrain"></h1>
+                <h1 id="population"></h1>
+                <h1 id="rotation-period"></h1>
+            </div>
+
+            <button type="button" id="people-button" name="button">Find Someone</button>
+            <button type="button" id="planet-button" name="button">Find Planet</button>
         </div>
     </section>
 
