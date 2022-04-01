@@ -26,52 +26,39 @@
         </div>
     </section>
 
-    
-    <div class="tab-nav-container" id="tab-nav-container">
-        <div class="people">
-            <p>People</p>
-        </div>
+    <ul class="tabs">
+        <li data-tab-target="#people" class="active tab">People</li>
+        <li data-tab-target="#planet" class="tab">Planets</li>
+        <li data-tab-target="#species" class="tab">Species</li>
+        <li data-tab-target="#species" class="tab">Vehicles</li>
+        <li data-tab-target="#species" class="tab">Starships</li>
+    </ul>
 
-        <div class="species">
-            <p>Species</p>
-        </div>
-
-        <div class="planets">
-            <p>Planet</p>
-        </div>
-
-        <div class="vehicles">
-            <p>Vehicles</p>
-        </div>
-
-        <div class="starships">
-            <p>Starships</p>
-        </div>
-    </div>
-    
-
-    <section class="content" id="content">
-        <div class="max-width">
-            <div id="people" class="people-info-container">
-                <h1 id="name"></h1>
-                <h1 id="DOB"></h1>
-                <h1 id="height"></h1>
-                <h1 id="weight"></h1>
-                <h1 id="gender"></h1>
-            </div>
-
-            <div id="planet" class="planet-info-container">
-                <h1 id="planet-name"></h1>
-                <h1 id="climate"></h1>
-                <h1 id="terrain"></h1>
-                <h1 id="population"></h1>
-                <h1 id="rotation-period"></h1>
-            </div>
-
+    <div class="tab-content">
+        <div id="people" data-tab-content class="active">
+            <h1 id="name"></h1>
+            <h1 id="DOB"></h1>
+            <h1 id="height"></h1>
+            <h1 id="weight"></h1>
+            <h1 id="gender"></h1>
             <button type="button" id="people-button" name="button">Find Someone</button>
+        </div>
+        
+        <div id="planet" data-tab-content>
+            <h1 id="planet-name"></h1>
+            <h1 id="climate"></h1>
+            <h1 id="terrain"></h1>
+            <h1 id="population"></h1>
+            <h1 id="rotation-period"></h1>
             <button type="button" id="planet-button" name="button">Find Planet</button>
         </div>
-    </section>
+
+        <div id="species" data-tab-content>
+            <h1>Species</h1>
+            <p>happening</p>
+        </div>
+    </div>
+
 
 
 
