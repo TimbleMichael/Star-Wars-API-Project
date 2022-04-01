@@ -55,51 +55,70 @@
   100% {top: -5000px; transform: translateZ(-2000px) rotateX(21deg);}
 }
 
-.tab-nav-container{
-  background: #fff;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 10px;
-  width: 100%;
-  
+[data-tab-content]{
+  display: none;
 }
 
-.content{
+.active[data-tab-content]{
+  display: block;
+}
+
+.tabs{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.tab{
+  cursor: pointer;
+  padding: 10px;
+}
+
+.tab.active{
+  background-color: #ccc;
+}
+
+.tab:hover{
+  background-color: #aaa;
+}
+
+.tab-content{
   display: flex;
   background: url("img/wallpaper.jpg") no-repeat center;
   background-size: 2000px 1200px;
   height: 100vh;
 }
 
-
-.content .people-info-container{
-  width: 800px;
-  height: 400px;
-  border: 2px solid yellow;
+.tab-content .active{
+  position: relative;
+  width: 1000px;
+  height: 500px;
+  border: 2px solid #ffc909;
   color: white;
   padding: 20px;
-  margin: 20px;
   border-radius: 25px;
   display: block;
-  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-.content .people-info-container h1{
-  margin-bottom: 50px;
+.tab-content h1{
+  margin-bottom: 60px;
   font-family: 'Ubuntu';
 }
 
-.content button{
+.tab-content button{
   background-color: white;
   border: none;
   color: black;
-  padding: 15px 15px;
+  padding: 15px 30px;
   text-align: center;
-  display: block;
-  margin: 0px auto;
+  display: inline-block;
   font-size: 16px;
   font-weight: 100;
   border-radius: 10px;
   font-family: 'Dela Gothic One',cursive;
+  position:absolute; top: 510px; left: 370px;
 }
-
