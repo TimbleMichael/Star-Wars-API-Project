@@ -67,19 +67,22 @@
   display: flex;
   justify-content: space-around;
   list-style-type: none;
+  font-family: 'Roboto';
+  background-color: white;
+  color: black;
 }
 
 .tab{
   cursor: pointer;
-  padding: 10px;
+  padding: 10px 50px;
 }
 
 .tab.active{
-  background-color: #ccc;
+  background-color: #ffc909;
 }
 
 .tab:hover{
-  background-color: #aaa;
+  background-color: #ffc909;
 }
 
 .tab-content{
@@ -93,7 +96,7 @@
   position: relative;
   width: 1000px;
   height: 500px;
-  border: 2px solid #ffc909;
+  border: 2px solid	#43a5cf;
   color: white;
   padding: 20px;
   border-radius: 25px;
@@ -105,8 +108,9 @@
 }
 
 .tab-content h1{
-  margin-bottom: 60px;
+  margin-bottom: 45px;
   font-family: 'Ubuntu';
+  color: #ffc909;
 }
 
 .tab-content button{
