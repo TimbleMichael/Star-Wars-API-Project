@@ -1,0 +1,359 @@
+{
+  "people": [
+    {
+      "name": "Luke Skywalker",
+      "imgUrl": "https://www.giantfreakinrobot.com/wp-content/uploads/2021/04/luke-skywalker-mark-hamill-900x507.jpg",
+      "id": 1
+    },
+    {
+      "name": "C-3PO",
+      "imgUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2019/10/EP9-FF-001686-336e75b.jpg?quality=90&resize=768,574",
+      "id": 2
+    },
+    {
+      "name": "R2-D2",
+      "imgUrl": "https://images.squarespace-cdn.com/content/5816496ef5e2319b546c5d19/1496338120936-MS3BEQEL0NLK7K1R2UP1/R2+D2+Final+Image.jpg?format=1500w&content-type=image%2Fjpeg",
+      "id": 3
+    },
+    {
+      "name": "Darth Vader",
+      "imgUrl": "https://www.denofgeek.com/wp-content/uploads/2017/03/darth-vader-1_0.jpg?fit=1947%2C1274",
+      "id": 4
+    },
+    {
+      "name": "Leia Organa",
+      "imgUrl": "https://www.themarysue.com/wp-content/uploads/2018/06/leia-organa-star-wars-1200x669.png",
+      "id": 5
+    },
+    {
+      "name": "Owen Lars",
+      "imgUrl": "https://sm.askmen.com/askmen_in/topten/o/owen-lars/owen-lars_qt6s.jpg",
+      "id": 6
+    },
+    {
+      "name": "Beru Whitesun lars",
+      "imgUrl": "https://static3.srcdn.com/wordpress/wp-content/uploads/2021/08/Uncle-Own-Aunt-Beru-Facts-Restaurant.jpg?q=50&fit=crop&w=963&h=481&dpr=1.5",
+      "id": 7
+    },
+    {
+      "name": "R5-D4",
+      "imgUrl": "https://static.onecms.io/wp-content/uploads/sites/6/2019/01/the-mandalorian-2000.jpg",
+      "id": 8
+    },
+    {
+      "name": "Biggs Darklighter",
+      "imgUrl": "https://i.pinimg.com/564x/e5/8b/46/e58b469846ef232cbd4c330fe12e34cd.jpg",
+      "id": 9
+    },
+    {
+      "name": "Obi-Wan Kenobi",
+      "imgUrl": "https://media.vanityfair.com/photos/5d56eac902bf930008778de7/3:2/w_1998,h_1332,c_limit/obi-wan-ewan-series.jpg",
+      "id": 10
+    },
+    {
+      "name": "Anakin Skywalker",
+      "imgUrl": "https://www.bobafettfanclub.com/tn/200x200/multimedia/galleries/albums/userpics/10001/anakin-skywalker-1569312236.jpeg",
+      "id": 11
+    },
+    {
+      "name": "Wilhuff Tarkin",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/5/5a/Grand_Moff_Tarkin.png",
+      "id": 12
+    },
+    {
+      "name": "Chewbacca",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Chewbaca_%28Peter_Mayhew%29.png/220px-Chewbaca_%28Peter_Mayhew%29.png",
+      "id": 13
+    },
+    {
+      "name": "Han Solo",
+      "imgUrl": "https://i0.wp.com/bamfstyle.com/wp-content/uploads/2016/05/hansolo-main.png?ssl=1",
+      "id": 14
+    },
+    {
+      "name": "Greedo",
+      "imgUrl": "https://cdn.onebauer.media/one/media/5dcd/7b64/90a4/164d/bec0/bb9d/greedo.jpg?format=jpg&quality=80&width=440&ratio=16-9&resize=aspectfill",
+      "id": 15
+    },
+    {
+      "name": "Jabba Desilijic Tiure",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/5/53/Jabba_the_Hutt_in_Return_of_the_Jedi_%281983%29.png",
+      "id": 16
+    },
+    {
+      "name": "UNDEFINED",
+      "imgUrl": "https://www.publicdomainpictures.net/pictures/280000/nahled/not-found-image-15383864787lu.jpg",
+      "id": 17
+    },
+    {
+      "name": "Wedge Antilles",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/4/41/Wedge_Antilles-Denis_Lawson-Star_Wars_%281977%29.jpg",
+      "id": 18
+    },
+    {
+      "name": "Jek Tono Porkins",
+      "imgUrl": "https://external-preview.redd.it/L5-_9N-jx6I07kmJAPS6_z1go1OAM3BghLCzlf7fOIs.jpg?auto=webp&s=d93adec853fd44128897c83c2aa9ceb197655a22",
+      "id": 19
+    },
+    {
+      "name": "Yoda",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Yoda_Attack_of_the_Clones.png/170px-Yoda_Attack_of_the_Clones.png",
+      "id": 20
+    },
+    {
+      "name": "Palpatine",
+      "imgUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/palpatine-family-children-1576775874.jpg?crop=0.488xw:0.976xh;0.512xw,0&resize=480:*",
+      "id": 21
+    },
+    {
+      "name": "Boba Fett",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/3/3e/FettbobaJB.png",
+      "id": 22
+    },
+    {
+      "name": "IG-88",
+      "imgUrl": "https://bbts1.azureedge.net/images/p/full/2015/12/GG10586_o.jpg",
+      "id": 23
+    },
+    {
+      "name": "Bossk",
+      "imgUrl": "https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/images/2019/08/swbf2-refresh-hero-large-heroes-page-bossk-16x9-xl.jpg.adapt.crop1x1.320w.jpg",
+      "id": 24
+    },
+    {
+      "name": "Lando Calrissian",
+      "imgUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2018/07/Episode_V_Empire_Williams02-8b1652f.jpg?quality=90&resize=768,574",
+      "id": 25
+    },
+    {
+      "name": "Lobot",
+      "imgUrl": "https://hackster.imgix.net/uploads/cover_image/file/107094/Lobothead.jpg?auto=compress&w=900&h=675&fit=min&fm=jpg",
+      "id": 26
+    },
+    {
+      "name": "Ackbar",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/6/6e/AckbarStanding.jpg",
+      "id": 27
+    },
+    {
+      "name": "Mon Mothma",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJNdtaNiQYsFDXeqCUO2mDFc4oN95btc7xOg&usqp=CAU",
+      "id": 28
+    },
+    {
+      "name": "Arvel Crynyd",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7nldlZCzunlRn6c5s9wvuIZ6xmBaQlXh3VA&usqp=CAU",
+      "id": 29
+    },
+    {
+      "name": "Wicket Systri Warrick",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/e/ee/Wicket_W_Warrick.png",
+      "id": 30
+    },
+    {
+      "name": "Nien Nunb",
+      "imgUrl": "https://images.immediate.co.uk/production/volatile/sites/3/2020/01/Screen-Shot-2020-01-11-at-12.52.38-f33ecaf.png",
+      "id": 31
+    },
+    {
+      "name": "Qui-Gon Jinn",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPJ14rQ52xDKXBxj3bgOXDV6FrB9RVeEyXHw&usqp=CAU",
+      "id": 32
+    },
+    {
+      "name": "Nute Gunray",
+      "imgUrl": "https://pbs.twimg.com/profile_images/1087562005924306945/ft9qDBZV_400x400.jpg",
+      "id": 33
+    },
+    {
+      "name": "Finis Valorum",
+      "imgUrl": "https://i.pinimg.com/originals/29/16/62/29166227119bf6376119c9d89c3d88c7.jpg",
+      "id": 34
+    },
+    {
+      "name": "Padmé Amidala",
+      "imgUrl": "https://i.pinimg.com/originals/a5/cd/82/a5cd8239a20cc2efb823a1132b6edba1.jpg",
+      "id": 35
+    },
+    {
+      "name": "Jar Jar Binks",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Jjportrait.jpg/220px-Jjportrait.jpg",
+      "id": 36
+    },
+    {
+      "name": "Roos Tarpals",
+      "imgUrl": "https://images.uncyclomedia.co/darthipedia/darth/thumb/8/86/Tarpals.jpg/250px-Tarpals.jpg",
+      "id": 37
+    },
+    {
+      "name": "Rugor Nass",
+      "imgUrl": "https://i.pinimg.com/600x315/c5/ca/83/c5ca835414a3d225fa0d72f4e5dd08f2.jpg",
+      "id": 38
+    },
+    {
+      "name": "Ric Olié",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTusbJISrU406lx6foM8etqjTVnVgWzmsuBjA&usqp=CAU",
+      "id": 39
+    },
+    {
+      "name": "Watto",
+      "imgUrl": "https://cdn.shopify.com/s/files/1/1368/0279/products/Watto_Star_Wars_1024x1024.jpg",
+      "id": 40
+    },
+    {
+      "name": "Sebulba",
+      "imgUrl": "https://www.seekpng.com/png/detail/154-1542356_sebulba-star-wars-sebulba-png.png",
+      "id": 41
+    },
+    {
+      "name": "Quarsh Panaka",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8flEONz6r-OJn0gqmzTTPfElZjAZxUbR6nA&usqp=CAU",
+      "id": 42
+    },
+    {
+      "name": "Shmi Skywalker",
+      "imgUrl": "https://comicvine.gamespot.com/a/uploads/scale_small/1/10376/225024-19607-shmi-skywalker.jpg",
+      "id": 43
+    },
+    {
+      "name": "Darth Maul",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/MaulStarWars.jpg/220px-MaulStarWars.jpg",
+      "id": 44
+    },
+    {
+      "name": "Bib Fortuna",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/6/65/Bib_Fortuna_%28screenshot%29.jpg",
+      "id": 45
+    },
+    {
+      "name": "Ayla Secura",
+      "imgUrl": "https://spikeybits.com/wp-content/uploads/2018/02/Aayla-Secura.jpg",
+      "id": 46
+    },
+    {
+      "name": "Ratts Tyerel",
+      "imgUrl": "https://starwarsreadingorder.com/images/characters/ratts_tyerell.jpg",
+      "id": 47
+    },
+    {
+      "name": "Dud Bolt",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIe9qvqaVsvM_Amd7EtpxkXWMT-Y0Oyd4uvtmJz_ucebaQjcX2f14KvQh4RJcWK4AfYZs&usqp=CAU",
+      "id": 48
+    },
+    {
+      "name": "Gasgano",
+      "imgUrl": "https://i.pinimg.com/736x/c4/14/6f/c4146f6ce6b06f1e4d44b6cbfad0930d.jpg",
+      "id": 49
+    },
+    {
+      "name": "Ben Quadinaros",
+      "imgUrl": "https://pbs.twimg.com/profile_images/1482443028912832513/4DILKJbF_400x400.jpg",
+      "id": 50
+    },
+    {
+      "name": "Mace Windu",
+      "imgUrl": "https://www.denofgeek.com/wp-content/uploads/2020/12/the-mandalorian-mace-windu.jpg?resize=768%2C432",
+      "id": 51
+    },
+    {
+      "name": "Ki-Adi-Mundi",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8DlGS4TBgbVi07tDlJY8YsMWb9tYjzJwtlQ&usqp=CAU",
+      "id": 52
+    },
+    {
+      "name": "Kit Fisto",
+      "imgUrl": "https://i.pinimg.com/originals/1e/29/58/1e29587836f1da66f7c8e9493a2b925e.jpg",
+      "id": 53
+    },
+    {
+      "name": "Eeth Koth",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3UUiztY3D3GkumlyGPX26tbT_llzDzc0iRg&usqp=CAU",
+      "id": 54
+    },
+    {
+      "name": "Adi Gallia",
+      "imgUrl": "https://comicvine.gamespot.com/a/uploads/scale_small/0/5904/205431-29575-adi-gallia.jpg",
+      "id": 55
+    },
+    {
+      "name": "Saesee Tiin",
+      "imgUrl": "https://comicvine.gamespot.com/a/uploads/scale_small/0/77/214057-27080-saesee-tinn.jpg",
+      "id": 56
+    },
+    {
+      "name": "Yarael Poof",
+      "imgUrl": "https://comicvine.gamespot.com/a/uploads/scale_small/0/5904/205844-168553-yarael-poof.jpg",
+      "id": 57
+    },
+    {
+      "name": "Plo Koon",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyOofhBLn52h3dl91LcpD8v_TZ1BxWU6sJAQ&usqp=CAU",
+      "id": 58
+    },
+    {
+      "name": "Mas Amedda",
+      "imgUrl": "https://pm1.narvii.com/6481/cb78302912f33c6212cd055c0e581f41404f79d3_hq.jpg",
+      "id": 59
+    },
+    {
+      "name": "Gregar Typho",
+      "imgUrl": "https://i.ytimg.com/vi/lb2xQXn3hu0/mqdefault.jpg",
+      "id": 60
+    },
+    {
+      "name": "Cordé",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgx88z50zHIrVyTVhp4MhABVS9RKljSILgfw&usqp=CAU",
+      "id": 61
+    },
+    {
+      "name": "Cliegg Lars",
+      "imgUrl": "https://i.pinimg.com/originals/74/01/f5/7401f5362803efc1e9a802ce7dcec4bb.jpg",
+      "id": 62
+    },
+    {
+      "name": "Poggle the Lesser",
+      "imgUrl": "https://m.media-amazon.com/images/I/51eRxdur4NL._AC_.jpg",
+      "id": 63
+    },
+    {
+      "name": "Luminara Unduli",
+      "imgUrl": "https://assets.3dtotal.com/cedric-monsempo-luminara-03.1ervw9.expanded.ljj.jpg",
+      "id": 64
+    },
+    {
+      "name": "Barriss Offee",
+      "imgUrl": "https://bennettrcoles.com/wp-content/uploads/2021/04/Barriss_offee_bio_pic.jpg",
+      "id": 65
+    },
+    {
+      "name": "Dormé",
+      "imgUrl": "https://i.pinimg.com/originals/57/e4/d3/57e4d374e15f6a5bfcd4ab8812634140.png",
+      "id": 66
+    },
+    {
+      "name": "Dooku",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/5/58/Count_Dooku_%28Christopher_Lee%29.png",
+      "id": 67
+    },
+    {
+      "name": "Bail Prestor Organa",
+      "imgUrl": "https://www.themarysue.com/wp-content/uploads/2016/12/bail-organa.jpeg",
+      "id": 68
+    },
+    {
+      "name": "Jango Fett",
+      "imgUrl": "https://www.sideshow.com/storage/product-images/903741/hot-toys-jango-fett_star-wars_square.jpg",
+      "id": 69
+    },
+    {
+      "name": "Zam Wesell",
+      "imgUrl": "https://i.pinimg.com/originals/a2/37/d3/a237d396eb64bcda83d67912ba3fc3fb.jpg",
+      "id": 70
+    },
+    {
+      "name": "Dexter Jettster",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSinzIQjMC9Pbb0HXD4_hkY29P4UHX9HS6jEA&usqp=CAU",
+      "id": 71
+    }
+  ]
+}
