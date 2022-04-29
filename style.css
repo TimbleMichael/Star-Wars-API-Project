@@ -92,6 +92,12 @@
   height: 100vh;
 }
 
+.tab-content .header{
+  position: relative;
+  margin-left: 450px;
+  margin-top: -500px;
+}
+
 .tab-content .active{
   position: relative;
   width: 1000px;
