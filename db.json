@@ -17,7 +17,7 @@
     },
     {
       "name": "Darth Vader",
-      "imgUrl": "https://www.denofgeek.com/wp-content/uploads/2017/03/darth-vader-1_0.jpg?fit=1947%2C1274",
+      "imgUrl": "https://ichef.bbci.co.uk/news/640/cpsprodpb/C13C/production/_115686494_mediaitem115686493.jpg",
       "id": 4
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "name": "R5-D4",
-      "imgUrl": "https://static.onecms.io/wp-content/uploads/sites/6/2019/01/the-mandalorian-2000.jpg",
+      "imgUrl": "https://comicvine.gamespot.com/a/uploads/square_small/1/15317/326025-100551-r5-d4.jpg",
       "id": 8
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "name": "Obi-Wan Kenobi",
-      "imgUrl": "https://media.vanityfair.com/photos/5d56eac902bf930008778de7/3:2/w_1998,h_1332,c_limit/obi-wan-ewan-series.jpg",
+      "imgUrl": "https://i.pinimg.com/564x/e8/52/7e/e8527ec655b07e0c7a5935e463f48fd2.jpg",
       "id": 10
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "name": "Han Solo",
-      "imgUrl": "https://i0.wp.com/bamfstyle.com/wp-content/uploads/2016/05/hansolo-main.png?ssl=1",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/b/be/Han_Solo_depicted_in_promotional_image_for_Star_Wars_%281977%29.jpg",
       "id": 14
     },
     {
@@ -172,7 +172,7 @@
     },
     {
       "name": "Padmé Amidala",
-      "imgUrl": "https://i.pinimg.com/originals/a5/cd/82/a5cd8239a20cc2efb823a1132b6edba1.jpg",
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8lw3_iNUricPs2z8XUE7rU18OZCEfPM2EzA&usqp=CAU",
       "id": 35
     },
     {
@@ -307,7 +307,7 @@
     },
     {
       "name": "Cliegg Lars",
-      "imgUrl": "https://i.pinimg.com/originals/74/01/f5/7401f5362803efc1e9a802ce7dcec4bb.jpg",
+      "imgUrl": "https://i.pinimg.com/originals/74/f4/77/74f477bf21c59c1541aad209f27a8e18.jpg",
       "id": 62
     },
     {
@@ -317,7 +317,7 @@
     },
     {
       "name": "Luminara Unduli",
-      "imgUrl": "https://assets.3dtotal.com/cedric-monsempo-luminara-03.1ervw9.expanded.ljj.jpg",
+      "imgUrl": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/star-wars-episode-7/1/14/LuminaraGeo.jpg",
       "id": 64
     },
     {
@@ -354,6 +354,66 @@
       "name": "Dexter Jettster",
       "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSinzIQjMC9Pbb0HXD4_hkY29P4UHX9HS6jEA&usqp=CAU",
       "id": 71
+    },
+    {
+      "name": "Lama Su",
+      "imgUrl": "https://static.tvmaze.com/uploads/images/medium_portrait/331/827802.jpg",
+      "id": 72
+    },
+    {
+      "name": "Taun We",
+      "imgUrl": "https://i.pinimg.com/474x/49/d9/0a/49d90a3c817b21210701993bc042bcb4--prime-minister-lama.jpg",
+      "id": 73
+    },
+    {
+      "name": "Jocasta Nu",
+      "imgUrl": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/star-wars-episode-7/a/aa/Jocasta_nu_bio_pic.jpeg",
+      "id": 74
+    },
+    {
+      "name": "R4-P17",
+      "imgUrl": "https://www.giantbomb.com/a/uploads/scale_small/12/120992/2074480-3.jpg",
+      "id": 75
+    },
+    {
+      "name": "Wat Tambor",
+      "imgUrl": "https://swrpggm.com/wp-content/uploads/2021/04/Wat-Tambor_FE.png",
+      "id": 76
+    },
+    {
+      "name": "San Hill",
+      "imgUrl": "https://i.pinimg.com/originals/4f/6c/06/4f6c064834f0861ad92bf18b499de5a7.jpg",
+      "id": 77
+    },
+    {
+      "name": "Shaak Ti",
+      "imgUrl": "https://i.pinimg.com/736x/6f/3c/40/6f3c403c2b81a689fa2cf1d51a580476.jpg",
+      "id": 78
+    },
+    {
+      "name": "Grievous",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/5/58/GeneralGrievous.png",
+      "id": 79
+    },
+    {
+      "name": "Tarfful",
+      "imgUrl": "https://i.pinimg.com/originals/93/35/ca/9335ca1b00cfd0ff2fafd2de32f085e4.jpg",
+      "id": 80
+    },
+    {
+      "name": "Raymus Antilles",
+      "imgUrl": "http://pm1.narvii.com/6430/6df959c5c8f76435de54f734b49dfcad906cf2ba_00.jpg",
+      "id": 81
+    },
+    {
+      "name": "Sly Moore",
+      "imgUrl": "https://qph.fs.quoracdn.net/main-qimg-33d1d9ed857c85da5a5f3ccb8f105e68-pjlq",
+      "id": 82
+    },
+    {
+      "name": "Tion Medon",
+      "imgUrl": "https://i.pinimg.com/originals/b9/b8/9d/b9b89d5e6d70c400202b3c9df4eaa33c.jpg",
+      "id": 83
     }
   ]
 }
