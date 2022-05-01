@@ -28,7 +28,7 @@ let speciesButton = document.getElementById('species-button')
 
 function getPeople() {
 
-    let numberPeople = Math.floor((Math.random()*82)+1)
+    let numberPeople = Math.floor((Math.random()*83)+1)
     let apiUrl = 'https://swapi.dev/api/people/' +  numberPeople 
 
     fetch(apiUrl)
@@ -66,15 +66,34 @@ function getPeople() {
             .then(data => {
                 console.log(data.people)
 
-                var url = data.people[numberPeople-1]['imgUrl']
+                // Function appending image 
+                    //if empty
+                        //append image (this will be for the first time)
+                    //else 
+                        // console.log("error")
                 
-                var image = new Image();
-                image.src = url
-                image.width = 400;
-                image.height = 400;
+                // Function delete
+                    //if image exist
+                        //remove.child
+                    //else
+                        //return 0
 
-                document.getElementById('header').appendChild(image)
+                var img = document.getElementById('image')
+                var src = img.getAttribute('src')
 
+                function addImage() {
+                    if (src === "") {
+                        var images = document.createElement('img')
+                        images.src = data.people[numberPeople-1]['imgUrl']
+                        img.appendChild(images)
+
+                    } else {
+                        img.removeChild(img)
+                    }
+                }
+
+                addImage()    
+                               
             })
 
     })
