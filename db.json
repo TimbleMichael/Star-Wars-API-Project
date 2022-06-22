@@ -2,7 +2,7 @@
   "people": [
     {
       "name": "Luke Skywalker",
-      "imgUrl": "https://www.giantfreakinrobot.com/wp-content/uploads/2021/04/luke-skywalker-mark-hamill-900x507.jpg",
+      "imgUrl": "https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/images/2019/08/swbf2-refresh-hero-large-heroes-page-luke-skywalker-16x9-xl.jpg.adapt.crop1x1.320w.jpg",
       "id": 1
     },
     {
@@ -12,7 +12,7 @@
     },
     {
       "name": "R2-D2",
-      "imgUrl": "https://images.squarespace-cdn.com/content/5816496ef5e2319b546c5d19/1496338120936-MS3BEQEL0NLK7K1R2UP1/R2+D2+Final+Image.jpg?format=1500w&content-type=image%2Fjpeg",
+      "imgUrl": "https://qph.cf2.quoracdn.net/main-qimg-ef2462845de9390343de4de48f4cc759-lq",
       "id": 3
     },
     {
@@ -22,7 +22,7 @@
     },
     {
       "name": "Leia Organa",
-      "imgUrl": "https://www.themarysue.com/wp-content/uploads/2018/06/leia-organa-star-wars-1200x669.png",
+      "imgUrl": "http://pm1.narvii.com/6224/b53a7f4e00085d30654f0777764c51eb435111ec_00.jpg",
       "id": 5
     },
     {
@@ -32,7 +32,7 @@
     },
     {
       "name": "Beru Whitesun lars",
-      "imgUrl": "https://static3.srcdn.com/wordpress/wp-content/uploads/2021/08/Uncle-Own-Aunt-Beru-Facts-Restaurant.jpg?q=50&fit=crop&w=963&h=481&dpr=1.5",
+      "imgUrl": "https://assets.mycast.io/characters/aunt-beru-841003-normal.jpg?1595108238",
       "id": 7
     },
     {
@@ -222,7 +222,7 @@
     },
     {
       "name": "Bib Fortuna",
-      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/6/65/Bib_Fortuna_%28screenshot%29.jpg",
+      "imgUrl": "https://swrpggm.com/wp-content/uploads/2021/05/Bib-Fortuna_ROTJ_FE.png",
       "id": 45
     },
     {
@@ -387,12 +387,12 @@
     },
     {
       "name": "Shaak Ti",
-      "imgUrl": "https://i.pinimg.com/736x/6f/3c/40/6f3c403c2b81a689fa2cf1d51a580476.jpg",
+      "imgUrl": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/star-wars-episode-7/5/57/Shaak_ti_bio_pic.jpeg",
       "id": 78
     },
     {
       "name": "Grievous",
-      "imgUrl": "https://upload.wikimedia.org/wikipedia/en/5/58/GeneralGrievous.png",
+      "imgUrl": "https://images.cults3d.com/kJLMogT32gxar3CwSnyCno7Gm8M=/516x516/https://files.cults3d.com/uploaders/20992866/illustration-file/d714cb05-1f12-4c02-a348-858f299d35fc/andres-alanis-grievous-render.jpg",
       "id": 79
     },
     {
@@ -412,8 +412,60 @@
     },
     {
       "name": "Tion Medon",
-      "imgUrl": "https://i.pinimg.com/originals/b9/b8/9d/b9b89d5e6d70c400202b3c9df4eaa33c.jpg",
+      "imgUrl": "https://cdn3.whatculture.com/images/2014/05/bruce-spence-star-wars.jpg",
       "id": 83
+    }
+  ],
+  "planets": [
+    {
+      "name": "Tatooine",
+      "imgUrl": "https://oyster.ignimgs.com/mediawiki/apis.ign.com/star-wars-episode-7/4/4b/Tatooine-3.jpg",
+      "id": 1
+    },
+    {
+      "name": "Alderaan",
+      "imgUrl": "https://miriamseidel.com/wp-content/uploads/2017/01/SnowballPlanet.jpg",
+      "id": 2
+    },
+    {
+      "name": "Yavin IV",
+      "imgUrl": "https://i.pinimg.com/736x/d5/46/14/d54614e120e4d3aaaeb4a991109e4633--star-wars-episodes-jedi.jpg",
+      "id": 3
+    },
+    {
+      "name": "Hoth",
+      "imgUrl": "https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/1621651697984-YKPSY80M51QURUYIL0XT/star%2Bwars%2Bhoth%2Blandscape.jpeg.jpg",
+      "id": 4
+    },
+    {
+      "name": "Dagobah",
+      "imgUrl": "https://i1.sndcdn.com/artworks-000137813732-tqkewc-t500x500.jpg",
+      "id": 5
+    },
+    {
+      "name": "Bespin",
+      "imgUrl": "https://lumiere-a.akamaihd.net/v1/images/cloudcity_94ffda67.png?region=143%2C0%2C1632%2C816&width=960",
+      "id": 6
+    },
+    {
+      "name": "Endor",
+      "imgUrl": "https://media.contentapi.ea.com/content/dam/walrus/common/swbf2-grid-tile-exploring-endor-16x9.jpg.adapt.crop16x9.575p.jpg",
+      "id": 7
+    },
+    {
+      "name": "Naboo",
+      "imgUrl": "https://i.scdn.co/image/ab67616d0000b2736f8fc54f0759e6152f7cace7",
+      "id": 8
+    },
+    {
+      "name": "Coruscant",
+      "imgUrl": "https://qph.cf2.quoracdn.net/main-qimg-aa73da2040c3f81ed2f99334beda883b-lq",
+      "id": 9
+    },
+    {
+      "name": "Kamino",
+      "imgUrl": "https://images2.minutemediacdn.com/image/fetch/w_736,h_485,c_fill,g_auto,f_auto/https%3A%2F%2Fdorksideoftheforce.com%2Ffiles%2Fimage-exchange%2F2021%2F08%2Fie_74586-850x542.jpeg",
+      "id": 10
     }
   ]
 }
