@@ -6,8 +6,6 @@
     <title>The Book of Star Wars</title>  
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/3d44e78152.js" crossorigin="anonymous"></script>
-       
-   
 </head>
 
 <body>
@@ -19,11 +17,11 @@
             <div class="scroll-text">
                 <h1>STAR WARS</h1>
                 <h2>An API Project Story</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate facere laboriosam accusantium omnis illo voluptas, tempora explicabo quae magnam quos ab molestias dignissimos enim, quaerat voluptatibus ex consequuntur. Molestias ducimus quos assumenda excepturi accusamus, ratione ad mollitia optio voluptatum iste.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate facere laboriosam accusantium omnis illo voluptas, tempora explicabo quae magnam quos ab molestias dignissimos enim, quaerat voluptatibus ex consequuntur. Molestias ducimus quos assumenda excepturi accusamus, ratione ad mollitia optio voluptatum iste.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate facere laboriosam accusantium omnis illo voluptas, tempora explicabo quae magnam quos ab molestias dignissimos enim, quaerat voluptatibus ex consequuntur. Molestias ducimus quos assumenda excepturi accusamus, ratione ad mollitia optio voluptatum iste.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate facere laboriosam accusantium omnis illo voluptas, tempora explicabo quae magnam quos ab molestias dignissimos enim, quaerat voluptatibus ex consequuntur. Molestias ducimus quos assumenda excepturi accusamus, ratione ad mollitia optio voluptatum iste.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate facere laboriosam accusantium omnis illo voluptas, tempora explicabo quae magnam quos ab molestias dignissimos enim, quaerat voluptatibus ex consequuntur. Molestias ducimus quos assumenda excepturi accusamus, ratione ad mollitia optio voluptatum iste.</p>
+                <p>This is my first project that I am doing using JavaScript. By extension this is also the first project in my software engineering career. The project helped me to understand API's and helped me get more comfortable with Git.</p>
+                <p>The criteria for this project was to create a front-end wesbsite using an external API and to use a data base. At this stage I ended up mocking a server using JSON. The JSON server was used to access images as part of the proejct.</p>
+                <p>The API that was used was the Star Wars API or SWAPI for short. Obviously a huge Star Wars fan, and the best in the series being A New Hope and Empire Strikes Back. Doing a project based on Star Wars got me excited and gave me the motivation I needed.</p>
+                <p>The wesbite itseld is split into 5-tabs: People, Planets, Species, Vehicles, and Starships. In a nutshell when the button is pressed in any of the tabs, it will give information about that praticular person or planet. Each subsequent click will output a random character or planet or species.</p>
+                <p>A shortcoming of the API is that there are no pictures, and this is where the JSON server came in. By mokcing a JSON server POST requests was made to the server where it would store links to images. Postman was used to make the POST requests, and only a single JSON server was necessary for it to work.</p>
             </div>
         </div>
     </section>
@@ -31,9 +29,8 @@
     <ul class="tabs">
         <li data-tab-target="#people" class="active tab">People</li>
         <li data-tab-target="#planet" class="tab">Planets</li>
+        <li data-tab-target="#film" class="tab">Films</li>
         <li data-tab-target="#species" class="tab">Species</li>
-        <li data-tab-target="#species" class="tab">Vehicles</li>
-        <li data-tab-target="#species" class="tab">Starships</li>
     </ul>
 
     <div class="tab-content">
@@ -52,85 +49,38 @@
             <h1 id="planet-name"></h1>
             <h1 id="diameter"></h1>
             <h1 id="climate"></h1>
-            <h1 id="terrain"></h1>
+            <h1 id="gravity"></h1>
             <h1 id="population"></h1>
             <h1 id="rotation-period"></h1>
+            <div id="image-planet" src="" class="image-planet"></div>
             <button type="button" id="planet-button" name="button">Find Planet</button>
+        </div>
+
+        <div id="film" data-tab-content>
+            <h1 id="film-name"></h1>
+            <h1 id="director"></h1>
+            <h1 id="producer"></h1>
+            <h1 id="release"></h1>
+            <h1 id="episode"></h1>
+            <div id="image-film" src="" class="image-film"></div>
+            <button type="button" id="film-button" name="button">Find Film</button>
         </div>
 
         <div id="species" data-tab-content>
             <h1 id="species-name"></h1>
             <h1 id="classification"></h1>
-            <h1 id="designation"></h1>
-            <h1 id="inhabitants"></h1>
+            <h1 id="avg-height"></h1>
             <h1 id="language"></h1>
+            <h1 id="eye-color"></h1>
             <h1 id="lifespan"></h1>
+            <div id="image-species" src="" class="image-species"></div>
             <button type="button" id="species-button" name="button">Find Species</button>
         </div>
+
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <script src="script.js"></script>
 
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </html>

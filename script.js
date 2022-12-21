@@ -22,8 +22,8 @@ tabs.forEach(tab => {
 
 let peopleButton = document.getElementById('people-button')
 let planetButton = document.getElementById('planet-button')
+let filmButton = document.getElementById('film-button')
 let speciesButton = document.getElementById('species-button')
-
 
 
 function getPeople() {
@@ -61,34 +61,30 @@ function getPeople() {
             homeWorld.innerText = `Home Planet: ${json['name']}`;
         })
 
-        fetch('./db.json')
+        fetch('http://localhost:3000/people')
             .then(results => results.json())
             .then(data => {
-                console.log(data.people)
-
-                // Function appending image 
-                    //if empty
-                        //append image (this will be for the first time)
-                    //else 
-                        // console.log("error")
-                
-                // Function delete
-                    //if image exist
-                        //remove.child
-                    //else
-                        //return 0
+                console.log(data)
 
                 var img = document.getElementById('image')
                 var src = img.getAttribute('src')
 
                 function addImage() {
-                    if (src === "") {
+                    if (img.firstChild === null) {
                         var images = document.createElement('img')
-                        images.src = data.people[numberPeople-1]['imgUrl']
+                        images.src = data[numberPeople-1]['imgUrl']
+                        images.id = "star-war-img"
                         img.appendChild(images)
+                        console.log(src)
 
                     } else {
-                        img.removeChild(img)
+                        var imagesSW = document.getElementById('star-war-img')
+                        img.removeChild(imagesSW)
+                        var images = document.createElement('img')
+                        images.src = data[numberPeople-1]['imgUrl']
+                        images.id = "star-war-img"
+                        img.appendChild(images)
+                        console.log(src)
                     }
                 }
 
@@ -114,22 +110,110 @@ function getPlanet() {
         let name = document.getElementById('planet-name')
         let diameter = document.getElementById('diameter')
         let climate = document.getElementById('climate')
-        let terrain = document.getElementById('terrain')
+        let gravity = document.getElementById('gravity')
         let population = document.getElementById('population')
         let rotationPeriod = document.getElementById('rotation-period')
 
         name.innerText = `Name: ${json['name']}`;
         diameter.innerText = `Diameter: ${json['diameter']}m`;
         climate.innerText = `Climate: ${json['climate']}`;
-        terrain.innerText = `Terrain: ${json['terrain']}`;
+        gravity.innerText = `Gravity: ${json['gravity']}`;
         population.innerText = `Population: ${json['population']}`;
         rotationPeriod.innerText = `Rotation Period: ${json['rotation_period']}`;
+
+        fetch('http://localhost:3000/planets')
+            .then(results => results.json())
+            .then(data => {
+                console.log(data)
+
+
+                var img = document.getElementById('image-planet')
+                var src = img.getAttribute('src')
+
+                function addImage() {
+                    if (img.firstChild === null) {
+                        var images = document.createElement('img')
+                        images.src = data[numberPlanet-1]['imgUrl']
+                        images.id = "star-war-img"
+                        img.appendChild(images)
+                        console.log(src)
+
+                    } else {
+                        var imagesSW = document.getElementById('star-war-img')
+                        img.removeChild(imagesSW)
+                        var images = document.createElement('img')
+                        images.src = data[numberPlanet-1]['imgUrl']
+                        images.id = "star-war-img"
+                        img.appendChild(images)
+                        console.log(src)
+                    }
+                }
+
+                addImage()
+
+            })
+
     })
     
 }
 
-function getSpecies() {
+function getFilm() {
+    let numberFilm = Math.floor((Math.random()*6)+1)
+    let apiUrl = 'https://swapi.dev/api/films/' +  numberFilm
 
+    fetch(apiUrl)
+    .then(function(response){
+        return response.json()
+    })
+    .then(function(json){
+        console.log(json)
+        let title = document.getElementById('film-name')
+        let director = document.getElementById('director')
+        let producer = document.getElementById('producer')
+        let releaseDate = document.getElementById('release')
+        let episodeNumber = document.getElementById('episode')
+
+        title.innerText = `Name: ${json["title"]}`
+        episodeNumber.innerText = `Episode: ${json['episode_id']}`
+        director.innerText = `Director: ${json['director']}`
+        producer.innerText = `Producer: ${json['producer']}`
+        releaseDate.innerText = `Release: ${json['release_date']}`
+
+        fetch('http://localhost:3000/films')
+            .then(results => results.json())
+            .then(data => {
+                console.log(data)
+
+                var img = document.getElementById('image-film')
+                var src = img.getAttribute('src')
+
+                function addImage() {
+                    if(img.firstChild === null) {
+                        var images = document.createElement('img')
+                        images.src = data[numberFilm-1]['imgUrl']
+                        images.id = 'star-war-img'
+                        img.appendChild(images)
+                        console.log(src)
+                    } else {
+                        var imagesSW = document.getElementById('star-war-img')
+                        img.removeChild(imagesSW)
+                        var images = document.createElement('img')
+                        images.src = data[numberFilm-1]['imgUrl']
+                        images.id = "star-war-img"
+                        img.appendChild(images)
+                        console.log(src)
+                    }
+                }
+
+                addImage()
+            })
+        
+    })
+
+}
+
+
+function getSpecies() {
     let numberSpecies = Math.floor((Math.random()*37)+1)
     let apiUrl = 'https://swapi.dev/api/species/' +  numberSpecies
 
@@ -137,51 +221,29 @@ function getSpecies() {
     .then(function(response){
         return response.json()
     })
-    .then (function(json){
+    .then(function(json){
         console.log(json)
-        let name = document.getElementById('species-name')
+        let speciesName = document.getElementById('species-name')
         let classification = document.getElementById('classification')
-        let designation = document.getElementById('designation')
+        let avgHeight = document.getElementById('avg-height')
         let language = document.getElementById('language')
+        let eyeColour = document.getElementById('eye-color')
         let lifespan = document.getElementById('lifespan')
 
-        name.innerText = `Species Name: ${json['name']}`;
-        classification.innerText = `Classification: ${json['classification']}`;
-        designation.innerText = `Designation: ${json['designation']}`;
-        language.innerText = `Language: ${json['language']}`;
-        lifespan.innerText = `Lifespan: ${json['average_lifespan']} years`;
-
-
-        // fetch('https://swapi.dev/api/species/1')
-        // .then(response => response.json())
-        // .then(data => {
-        //     loadPeople(data)
-        // })
-
-        // loadPeople = (data) => {
-        //     const urls = data.people
-            
-        //     const promises = urls.map(url => fetch(url)
-        //         .then(r => r.json())
-                
-        //         .then(person => person.name));
-            
-        //     Promise.all(promises)
-        //         .then(nameArray => {
-                    
-        //         })
-        // }
-
-
-        Promise.all(json.people.map(url => fetch(url)
-        .then(r => r.json())
-        .then(details => details.name)))
-        .then(names => document.getElementById('inhabitants').innerText = "Inhabitants: " + names.join(', '));
+        speciesName.innerText = `Name: ${json["name"]}`
+        classification.innerText = `Classification: ${json["classification"]}`
+        avgHeight.innerText = `Average Height: ${json["average_height"]}`
+        language.innerText = `Language: ${json["language"]}`
+        eyeColour.innerText = `Eye Colour: ${json["eye_colors"]}`
+        lifespan.innerText = `Lifespan: ${json["average_lifespan"]}`
 
     })
-    
+
 }
+
+
 
 peopleButton.addEventListener('click', getPeople)
 planetButton.addEventListener('click', getPlanet)
-speciesButton.addEventListener('click', getSpecies)
+filmButton.addEventListener('click', getFilm)
+speciesButton.addEventListener('click',getSpecies)

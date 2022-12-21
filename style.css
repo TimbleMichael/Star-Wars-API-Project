@@ -93,19 +93,33 @@
 }
 
 .tab-content .image{
-  position: relative;
+  position: absolute;
   margin-left: 500px;
-  margin-top: -425px;
- 
+  margin-top: -500px;
+  margin-left: 650px;
+}
+
+.tab-content .image-planet{
+  position: absolute;
+  margin-left: 500px;
+  margin-top: -500px;
+  margin-left: 650px;
+}
+
+.tab-content .image-film{
+  position: absolute;
+  margin-left: 500px;
+  margin-top: -500px;
+  margin-left: 650px;
 }
 
 .tab-content .active{
   position: relative;
-  width: 450px;
+  width: 500px;
   height: 500px;
   border: 2px solid	#43a5cf;
   color: white;
-  padding: 20px;
+  padding: 8px;
   border-radius: 25px;
   display: block;
   margin-left: 350px;
@@ -120,7 +134,7 @@
   color: #ffc909;
 }
 
-.tab-content button{
+.tab-content button{  
   background-color: white;
   border: none;
   color: black;
